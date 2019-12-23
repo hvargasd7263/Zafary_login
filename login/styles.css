@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-login {
+  margin: auto;
+  width: 600px;
+  height: 455px;
+  left: 420px;
+  top: 287px;
+  background: #F2FCFF;
+  border-radius: 30px;
+  box-sizing: border-box;
+  border: 2px solid #C3F1FF;
+
+}
+
+.caja-login h1 {
+  color: #5AD2AE;
+  font-family: Arial;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 49px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+
+}
+
+.formulario-login {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  margin-top: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.formulario-login small {
+  text-align: center;
+}
+
+.formulario-login input {
+  height: 34px;
+  border-radius: 30px;
+  border: 1px solid #C3F1FF;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  width: 500px;
+  height: 80px;
+  
+}
+
+.formulario-login button {
+
+  height: 34px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  box-sizing: border-box;
+  border-radius: 39.5px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  width: 500px;
+  height: 80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* Efecto al pasar encima el mouse */
+.formulario-login button:hover {
+  cursor: pointer;
+  background: #469F85;
+}
+
+
+.smallred {
+  color: rgb(240, 65, 65);
+  box-sizing: border-box;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.formulario-login small {
+  color: #AFAFAF;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Color de texto de ayuda */
+.formulario-login  input::placeholder {
+  color: #5AD2AE;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.formulario-login input
+{
+  color: #5AD2AE;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  opacity: 1;
+  padding: 20px;
+  
+}
